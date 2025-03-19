@@ -2,7 +2,8 @@ body {
     font-family: Arial, sans-serif;
     margin: auto;
     padding: 0;
-    background-color: #f5f5f5;
+    /* background-color: #f5f5f5; */
+    background-color: #f8f8f8;
     /* max-width: 1200px;
     font-size: 18px; */
 }
@@ -17,7 +18,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* color: white; */
+    background-color: #007BFF;
+    color: white;
     padding: 15px 20px;
 }
 .logo {
@@ -41,12 +43,13 @@ nav ul li a {
     display: flex;
     flex-wrap: wrap;
     text-decoration: none;
-    /* color: white; */
+    color: white;
     font-weight: bold;
 }
 .sec1 {
     text-align: center;
-    background: linear-gradient(45deg, #ff9800, #ff5722);
+    /* background: linear-gradient(45deg, #ff9800, #ff5722); */
+    background: linear-gradient(45deg, #0056b3, #004085);
     color: white;
     padding: 10px 20px;
     /* max-width: 100%; */
@@ -80,10 +83,12 @@ nav ul li a {
 }
 .product p {
     font-size: 16px;
-    color: #e65100;
+    /* color: #e65100; */
+    color: #0056b3;
 }
 button {
-    background-color: #ff6f00;
+    /* background-color: #ff6f00; */
+    background-color: #007BFF;
     color: white;
     border: none;
     padding: 4px;
@@ -92,14 +97,21 @@ button {
     width: 100%;
 }
 button:hover {
-    background-color: #e65100;
+    /* background-color: #e65100; */
+    background-color: #0056b3;
 }
 footer {
     display: grid;
     grid-template-columns: 1fr auto;
-    background-color: #333;
+    /* background-color: #333; */
+    background-color: #297186;
+    /* background-color: #2ab6e0; */
     color: white;
     /* text-align: center; */
     padding: 10px;
     margin-top: 20px;
+}
+.social img {
+    width: 30px;
+    height: 30px;
 }
