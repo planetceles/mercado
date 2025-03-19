@@ -27,14 +27,19 @@ header {
 nav ul {
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
     gap: 15px;
     padding: 0;
     margin: 0;
 }
 nav ul li {
-    display: inline;
+    /* display: inline; */
+    display: flex;
+    flex-wrap: wrap;
 }
 nav ul li a {
+    display: flex;
+    flex-wrap: wrap;
     text-decoration: none;
     /* color: white; */
     font-weight: bold;
